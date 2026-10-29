@@ -907,11 +907,6 @@ msgstr "{morphRelationCount} Objekte"
 msgid "{newlyEarnedCredits, plural, one {You earned {formattedNewlyEarnedCredits} free credit} other {You earned {formattedNewlyEarnedCredits} free credits}}"
 msgstr "{newlyEarnedCredits, plural, one {Jy het {formattedNewlyEarnedCredits} gratis krediet verdien} other {Jy het {formattedNewlyEarnedCredits} gratis krediete verdien}}"
 
-#. js-lingui-id: m4Hyoo
-#: src/pages/settings/applications/tabs/SettingsApplicationsAvailableTab.tsx
-msgid "{nonVettedCount, plural, one {No vetted application matches. # non-vetted application is available.} other {No vetted application matches. # non-vetted applications are available.}}"
-msgstr "{nonVettedCount, plural, one {Geen goedgekeurde toepassing pas nie. # nie-goedgekeurde toepassing is beskikbaar.} other {Geen goedgekeurde toepassing pas nie. # nie-goedgekeurde toepassings is beskikbaar.}}"
-
 #. js-lingui-id: hKZAJk
 #: src/modules/ai/hooks/useWarnAboutParticipantMentionsNotAdded.ts
 msgid "{notAddedLabels} could not be added to this chat because they can't reply in it."
@@ -1214,6 +1209,11 @@ msgstr "{unitCount, plural, one {Week} other {Weke}}"
 #: src/modules/ui/input/components/internal/date/components/RelativeDatePickerHeader.tsx
 msgid "{unitCount, plural, one {Year} other {Years}}"
 msgstr "{unitCount, plural, one {Jaar} other {Jare}}"
+
+#. js-lingui-id: ojkfzC
+#: src/pages/settings/applications/tabs/SettingsApplicationsAvailableTab.tsx
+msgid "{unlistedCount, plural, one {No listed application matches. # unlisted application is available.} other {No listed application matches. # unlisted applications are available.}}"
+msgstr ""
 
 #. js-lingui-id: GChCUQ
 #: src/modules/marketplace/utils/buildObjectRecordsPermissionSummary.ts
@@ -3330,11 +3330,6 @@ msgstr "Laat Google-gebaseerde aanmelding toe vir gebruikers met SSO omseil toes
 msgid "Allow importing data from CSV files"
 msgstr "Toelaat invoer van data vanaf CSV-lêers"
 
-#. js-lingui-id: irI8Y5
-#: src/pages/settings/admin-panel/SettingsAdminApplicationRegistrationGeneralSwitches.tsx
-msgid "Allow installation"
-msgstr "Laat installasie toe"
-
 #. js-lingui-id: GMx1K0
 #: src/modules/settings/security/components/SettingsSecurityAuthProvidersOptionsList.tsx
 msgid "Allow logins through Google's single sign-on functionality."
@@ -3800,11 +3795,6 @@ msgstr "Toepassing suksesvol geïnstalleer."
 msgid "Application Logs"
 msgstr "Toepassingslogboeke"
 
-#. js-lingui-id: l/T809
-#: src/pages/settings/applications/SettingsAvailableApplicationDetails.tsx
-msgid "Application not listed on the marketplace. It was shared via a direct link"
-msgstr "Hierdie toepassing is nie op die markplek gelys nie. Dit is via 'n direkte skakel gedeel"
-
 #. js-lingui-id: Ko+Gd2
 #: src/pages/settings/admin-panel/SettingsAdminApplicationRegistrationDetail.tsx
 #: src/pages/settings/applications/SettingsApplicationRegistrationDetails.tsx
@@ -3844,10 +3834,10 @@ msgstr "toepassingsveranderlike"
 msgid "Applications"
 msgstr "Toepassings"
 
-#. js-lingui-id: ZlXhiU
+#. js-lingui-id: q7rlQw
 #: src/pages/settings/applications/tabs/SettingsApplicationsAvailableTab.tsx
-msgid "Applications below are not vetted. Use at your own risk."
-msgstr "Toepassings hieronder is nie nagegaan nie. Gebruik op eie risiko."
+msgid "Applications below have not been reviewed by Twenty. Use at your own risk."
+msgstr ""
 
 #. js-lingui-id: p98xmP
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceUsageLimitsSection.tsx
@@ -6941,6 +6931,12 @@ msgstr "Koppel aan hierdie werkruimte"
 msgid "Connect via IMAP/SMTP"
 msgstr "Verbind via IMAP/SMTP"
 
+#. js-lingui-id: LqKH42
+#. placeholder {0}: provider.displayName
+#: src/modules/settings/app-preferences/components/SettingsAppPreferencesConnectionsTab.tsx
+msgid "Connect with {0}"
+msgstr ""
+
 #. js-lingui-id: vPwoq6
 #: src/modules/settings/app-preferences/components/SettingsAccountGroupsEmptyState.tsx
 #: src/modules/settings/app-preferences/components/SettingsApplicationConnectCards.tsx
@@ -9708,11 +9704,6 @@ msgstr "Vertoonnaam vir die model"
 msgid "Display text on multiple lines"
 msgstr "Vertoon teks op meerdere reëls"
 
-#. js-lingui-id: ljWYXA
-#: src/pages/settings/admin-panel/SettingsAdminApplicationRegistrationGeneralSwitches.tsx
-msgid "Display this app in the NPM packages list"
-msgstr "Vertoon hierdie toepassing in die lys van NPM-pakkette"
-
 #. js-lingui-id: vU/Hht
 #: src/pages/settings/admin-panel/SettingsAdminApplicationRegistrationDetail.tsx
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationInstallStats.tsx
@@ -10114,6 +10105,11 @@ msgstr "Elke lid kry 'n KI-toelaag, wat voor werkruimte-krediete gebruik word"
 #: src/modules/side-panel/pages/page-layout/constants/settings/ChartConfigurationSettingLabels.ts
 msgid "Each slice represents"
 msgstr "Elke skyfie verteenwoordig"
+
+#. js-lingui-id: 5oD9f/
+#: src/modules/ai/utils/groupThreadsByDate.ts
+msgid "Earlier"
+msgstr ""
 
 #. js-lingui-id: tOkc8o
 #: src/modules/object-record/record-board/record-board-column/utils/getAggregateOperationShortLabel.ts
@@ -16278,8 +16274,14 @@ msgstr "Lys met merkblokkies"
 #. js-lingui-id: Ap948/
 #: src/modules/settings/admin-panel/apps/components/SettingsAdminApps.tsx
 #: src/modules/settings/admin-panel/apps/components/SettingsAdminApps.tsx
+#: src/modules/settings/admin-panel/apps/components/SettingsAdminApps.tsx
 msgid "Listed"
 msgstr "Gelys"
+
+#. js-lingui-id: Xf6LIi
+#: src/pages/settings/admin-panel/SettingsAdminApplicationRegistrationGeneralSwitches.tsx
+msgid "Listed on the marketplace"
+msgstr ""
 
 #. js-lingui-id: 5wIe5g
 #: src/pages/settings/communications/SettingsWorkspaceNewUnsubscribeTopic.tsx
@@ -16329,6 +16331,11 @@ msgstr "Laai meer"
 #: src/modules/side-panel/pages/search-ai-chats/components/SidePanelAiChatPickerSearchResults.tsx
 msgid "Load more chats"
 msgstr "Laai meer kletse"
+
+#. js-lingui-id: dW52Ic
+#: src/modules/page-layout/widgets/chat-threads/components/ChatThreadsCard.tsx
+msgid "Load more conversations"
+msgstr ""
 
 #. js-lingui-id: CZGQgK
 #: src/modules/ai/utils/tool-display/getToolDisplayMessage.ts
@@ -16464,6 +16471,7 @@ msgstr "Laai tans..."
 
 #. js-lingui-id: Pwqkdw
 #: src/modules/ai/utils/getAiChatUsageLabel.ts
+#: src/modules/page-layout/widgets/chat-threads/components/ChatThreadsCard.tsx
 #: src/modules/settings/billing/components/internal/SettingsBillingLimitSpenderOptionList.tsx
 msgid "Loading…"
 msgstr "Laai…"
@@ -16909,10 +16917,10 @@ msgstr "Merk almal as voltooi"
 msgid "Mark as favourite"
 msgstr "Merk as gunsteling"
 
-#. js-lingui-id: fI1Tll
+#. js-lingui-id: 0SF1cJ
 #: src/pages/settings/admin-panel/SettingsAdminApplicationRegistrationGeneralSwitches.tsx
-msgid "Mark this app as reviewed and approved"
-msgstr "Merk hierdie toepassing as nagegaan en goedgekeur"
+msgid "Mark this app as reviewed and show it in the marketplace"
+msgstr ""
 
 #. js-lingui-id: u6Hp4N
 #: src/modules/settings/data-model/constants/CompositeFieldSubFieldLabelMessages.ts
@@ -22347,6 +22355,11 @@ msgstr "Verwerp"
 msgid "Rejected"
 msgstr "Verwerp"
 
+#. js-lingui-id: bFZR4R
+#: src/modules/metadata-error-handler/hooks/useMetadataErrorHandler.ts
+msgid "related record path"
+msgstr ""
+
 #. js-lingui-id: h9AYFD
 #: src/modules/settings/data-model/constants/SettingsFieldTypeCategoryLabels.ts
 msgid "Relation"
@@ -25194,6 +25207,7 @@ msgstr "Wys inkassie"
 
 #. js-lingui-id: 6lGV3K
 #: src/modules/ai/components/AiChatQueuedMessageList.tsx
+#: src/modules/ai/components/AiChatUserMessageCollapsibleContent.tsx
 msgid "Show less"
 msgstr "Wys minder"
 
@@ -25203,6 +25217,7 @@ msgid "Show logs"
 msgstr "Wys logboeke"
 
 #. js-lingui-id: fMPkxb
+#: src/modules/ai/components/AiChatUserMessageCollapsibleContent.tsx
 #: src/modules/settings/admin-panel/apps/components/SettingsAdminApps.tsx
 #: src/pages/settings/applications/components/SettingsApplicationRegistrationInstalledWorkspaces.tsx
 msgid "Show more"
@@ -25229,6 +25244,11 @@ msgstr "Wys hierdie aktiwiteitstipe in rekordtydlyne"
 #: src/modules/settings/data-model/object-details/components/tabs/SettingsObjectSearchSection.tsx
 msgid "Show this object's records in the command menu ({0})."
 msgstr "Wys hierdie objek se rekords in die opdragkieslys ({0})."
+
+#. js-lingui-id: h9ze7D
+#: src/pages/settings/applications/tabs/SettingsApplicationsAvailableTab.tsx
+msgid "Show unlisted apps"
+msgstr ""
 
 #. js-lingui-id: TJ4tz9
 #: src/modules/side-panel/pages/page-layout/constants/settings/ChartConfigurationSettingLabels.ts
@@ -27320,11 +27340,11 @@ msgstr "Hierdie toepassing is nie op die markplek beskikbaar nie. Dit is dalk ve
 msgid "This application is not installed on this workspace. It may have been uninstalled or the link is incorrect."
 msgstr "Hierdie toepassing is nie op hierdie werksruimte geïnstalleer nie. Dit is dalk verwyder of die skakel is verkeerd."
 
-#. js-lingui-id: 5j3WfU
+#. js-lingui-id: +EhakQ
 #: src/modules/marketplace/components/SettingsApplicationInstallPermissionValidationModal.tsx
 #: src/pages/settings/applications/SettingsAvailableApplicationDetails.tsx
-msgid "This application is not vetted by Twenty. Use at your own risk."
-msgstr "Hierdie toepassing is nie deur Twenty nagegaan nie. Gebruik dit op eie risiko."
+msgid "This application is not listed on the marketplace and has not been reviewed by Twenty. Use at your own risk."
+msgstr ""
 
 #. js-lingui-id: X7w5n6
 #: src/pages/settings/applications/tabs/SettingsApplicationRegistrationDistributionTab.tsx
@@ -27659,6 +27679,7 @@ msgid "This view uses {usageLabel} on object \"{0}\" which is not accessible."
 msgstr "Hierdie aansig gebruik {usageLabel} op die objek \"{0}\" wat nie toeganklik is nie."
 
 #. js-lingui-id: yByRxz
+#: src/modules/ai/utils/groupThreadsByDate.ts
 #: src/modules/settings/admin-panel/health-status/constants/WorkerQueueMetricsSelectOptions.ts
 #: src/modules/settings/billing/constants/UsageLimitPeriodSpanLabels.ts
 msgid "This week"
@@ -29947,17 +29968,6 @@ msgstr ""
 msgid "Very High"
 msgstr "Baie hoog"
 
-#. js-lingui-id: Shfac6
-#: src/modules/settings/admin-panel/apps/components/SettingsAdminApps.tsx
-#: src/pages/settings/admin-panel/SettingsAdminApplicationRegistrationGeneralSwitches.tsx
-msgid "Vetted"
-msgstr "Gekeur"
-
-#. js-lingui-id: kl33NM
-#: src/pages/settings/applications/tabs/SettingsApplicationsAvailableTab.tsx
-msgid "Vetted only"
-msgstr "Slegs gekeurde"
-
 #. js-lingui-id: vSJd18
 #: src/pages/settings/admin-panel/SettingsAdminNewAiModel.tsx
 msgid "Video"
@@ -31329,12 +31339,6 @@ msgstr "Jy het nie toegang tot hierdie objek nie."
 #: src/modules/settings/components/SettingsProtectedRouteWrapper.tsx
 msgid "You don't have access to this settings page."
 msgstr "Jy het nie toegang tot hierdie instellingsbladsy nie."
-
-#. js-lingui-id: avCHlt
-#. placeholder {0}: provider.displayName
-#: src/modules/settings/app-preferences/components/SettingsAppPreferencesConnectionsTab.tsx
-msgid "You have no {0} connection yet."
-msgstr "Jy het nog geen {0}-verbinding nie."
 
 #. js-lingui-id: tzk0bz
 #: src/pages/settings/enterprise/SettingsEnterprise.tsx
