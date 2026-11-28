@@ -6228,7 +6228,7 @@ msgstr "Lêer {fileId} is reeds aan 'n permanente lêerveld gekoppel. Laai asseb
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "Lêer {fileId} word meer as een keer gelys. Laai asseblief die lêer weer op."
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

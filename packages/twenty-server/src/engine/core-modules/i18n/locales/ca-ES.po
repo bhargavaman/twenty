@@ -6228,7 +6228,7 @@ msgstr "El fitxer {fileId} ja està associat a un camp de fitxers permanent. Tor
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "El fitxer {fileId} apareix més d'una vegada a la llista. Torneu a carregar el fitxer."
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

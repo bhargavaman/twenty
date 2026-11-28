@@ -6228,7 +6228,7 @@ msgstr "Dosya {fileId} zaten kalıcı bir dosya alanıyla ilişkilendirilmiş. L
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "Dosya {fileId} birden fazla kez listelenmiş. Lütfen dosyayı yeniden yükleyin."
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

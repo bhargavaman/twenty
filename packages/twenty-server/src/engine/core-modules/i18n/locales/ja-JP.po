@@ -6228,7 +6228,7 @@ msgstr "ファイル {fileId} はすでに永続的なファイルフィール�
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "ファイル {fileId} が複数回記載されています。ファイルを再アップロードしてください。"
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

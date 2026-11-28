@@ -6228,7 +6228,7 @@ msgstr "Файл {fileId} вже пов'язаний із постійним п�
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "Файл {fileId} зазначено більше одного разу. Будь ласка, завантажте файл повторно."
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

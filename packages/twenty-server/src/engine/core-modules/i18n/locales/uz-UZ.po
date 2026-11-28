@@ -6228,7 +6228,7 @@ msgstr "{fileId} fayli allaqachon doimiy fayllar maydoni bilan bog‘langan. Ilt
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "{fileId} fayli bir necha marta keltirilgan. Iltimos, faylni qayta yuklang."
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

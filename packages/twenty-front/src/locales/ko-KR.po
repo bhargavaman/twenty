@@ -14226,7 +14226,7 @@ msgstr "필드"
 #. js-lingui-id: BpMv2v
 #: src/modules/object-record/record-field/ui/meta-types/input/components/RichTextFieldEditor.tsx
 msgid "Field \"{fieldName}\" not found"
-msgstr ""
+msgstr "필드 \"{fieldName}\"을 찾을 수 없습니다"
 
 #. js-lingui-id: cdSPqd
 #. placeholder {0}: fieldMetadata.name

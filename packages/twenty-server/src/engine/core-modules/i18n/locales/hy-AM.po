@@ -6228,7 +6228,7 @@ msgstr "{fileId} ֆայլը արդեն կապված է մշտական files դա
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "{fileId} ֆայլը նշված է մեկից ավելի անգամ։ Խնդրում ենք կրկին վերբեռնել ֆայլը։"
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

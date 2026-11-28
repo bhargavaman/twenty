@@ -6228,7 +6228,7 @@ msgstr "Το αρχείο {fileId} είναι ήδη συσχετισμένο μ
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "Το αρχείο {fileId} εμφανίζεται περισσότερες από μία φορές. Παρακαλούμε μεταφορτώστε ξανά το αρχείο."
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

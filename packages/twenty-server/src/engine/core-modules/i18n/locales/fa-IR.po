@@ -6228,7 +6228,7 @@ msgstr "فایل {fileId} از قبل با یک فیلد فایل‌های دا�
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "فایل {fileId} بیش از یک بار فهرست شده است. لطفاً فایل را دوباره بارگذاری کنید."
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

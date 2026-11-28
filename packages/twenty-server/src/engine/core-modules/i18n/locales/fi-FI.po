@@ -6228,7 +6228,7 @@ msgstr "Tiedosto {fileId} on jo liitetty pysyvään tiedostokenttään. Lähetä
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "Tiedosto {fileId} on lueteltu useammin kuin kerran. Lähetä tiedosto uudelleen."
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

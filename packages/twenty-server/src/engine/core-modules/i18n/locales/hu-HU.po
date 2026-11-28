@@ -6228,7 +6228,7 @@ msgstr "A(z) {fileId} fájl már egy végleges fájlmezőhöz van társítva. K�
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "A(z) {fileId} fájl többször szerepel. Kérjük, töltse fel újra a fájlt."
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

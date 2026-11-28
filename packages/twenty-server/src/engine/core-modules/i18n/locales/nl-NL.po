@@ -6228,7 +6228,7 @@ msgstr "Het bestand {fileId} is al gekoppeld aan een permanent bestandenveld. Up
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "Bestand {fileId} wordt meer dan één keer vermeld. Upload het bestand opnieuw."
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

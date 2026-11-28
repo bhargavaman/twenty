@@ -6228,7 +6228,7 @@ msgstr "Filen {fileId} er allerede tilknyttet et permanent felt til filer. Uploa
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "Filen {fileId} er angivet mere end én gang. Upload venligst filen igen."
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

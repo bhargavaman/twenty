@@ -6228,7 +6228,7 @@ msgstr "Soubor {fileId} je již přiřazen k trvalému poli souborů. Prosím, n
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "Soubor {fileId} je uveden více než jednou. Nahrajte soubor znovu."
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

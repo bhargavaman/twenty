@@ -6228,7 +6228,7 @@ msgstr "Il file {fileId} è già associato a un campo file permanente. Carica nu
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "Il file {fileId} è elencato più di una volta. Carica nuovamente il file."
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

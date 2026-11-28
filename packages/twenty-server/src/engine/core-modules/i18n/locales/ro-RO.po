@@ -6228,7 +6228,7 @@ msgstr "Fișierul {fileId} este deja asociat cu un câmp de fișiere permanent. 
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "Fișierul {fileId} este listat de mai multe ori. Vă rugăm să reîncărcați fișierul."
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

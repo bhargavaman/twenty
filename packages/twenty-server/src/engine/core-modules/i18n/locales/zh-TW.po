@@ -6228,7 +6228,7 @@ msgstr "檔案 {fileId} 已與永久檔案欄位關聯。請重新上傳該檔�
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "檔案 {fileId} 被列出超過一次。請重新上傳該檔案。"
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts

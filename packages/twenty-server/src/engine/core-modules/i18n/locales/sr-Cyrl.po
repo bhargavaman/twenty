@@ -6228,7 +6228,7 @@ msgstr "Датотека {fileId} је већ повезана са трајни
 #. js-lingui-id: SsAfxz
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
 msgid "File {fileId} is listed more than once. Please re-upload the file."
-msgstr ""
+msgstr "Датотека {fileId} је наведена више пута. Поново отпремите датотеку."
 
 #. js-lingui-id: xiXoMW
 #: src/engine/twenty-orm/field-operations/files-field-sync/files-field-sync.ts
